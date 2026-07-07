@@ -10,7 +10,6 @@ import Consulta from './pages/Consulta.jsx'
 import Series from './pages/Series.jsx'
 import Subseries from './pages/Subseries.jsx'
 import Tramites from './pages/Tramites.jsx'
-import RecuperarPassword from './pages/RecuperarPassword.jsx'
 import Login from './pages/Login.jsx'
 import Reportes from './pages/Reportes.jsx'
 
@@ -38,7 +37,6 @@ function App() {
 
       {/* RUTAS EXTERNAS: Totalmente limpias, sin Header ni Sidebar */}
       <Route path="/view/login" element={<Login />} />
-      <Route path="/view/recuperar-password" element={<RecuperarPassword />} />
 
       {/* RUTAS INTERNAS: Envueltas en el diseño del sistema */}
       <Route element={<DashboardLayout />}>
